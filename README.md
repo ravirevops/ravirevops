@@ -29,7 +29,7 @@ I write daily on LinkedIn about why most cold email is broken (it's a deliverabi
 
 ### Outbound systems & tooling
 
-**Cold email copy pipeline** — A 7-agent Claude pipeline that generates personalised cold email sequences at scale. Lead CSV in, three-email sequence out, rule-compliant, QA-scored with a retry loop. Used as the copy backbone across consulting builds.
+**[Cold email copy pipeline](https://github.com/ravirevops/cold-email-copy)** — A 7-agent Claude pipeline that generates personalised cold email sequences at scale. Lead CSV in, three-email sequence out, rule-compliant, QA-scored with a retry loop. Used as the copy backbone across consulting builds.
 *Stack:* Python · Claude Sonnet · JSON copy ruleset (75–125 word body, 59 banned words, no-emoji, subject constraints).
 
 **Sonar — unified lead engine** *(in active development)* — Personal infra. Four discovery modes (ICP match, signal research, LinkedIn engagement scrape, graph queries) feeding a shared 10-step Python enrichment pipeline. Front end is a Next.js dashboard.
