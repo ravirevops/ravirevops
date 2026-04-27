@@ -32,10 +32,10 @@ I write daily on LinkedIn about why most cold email is broken (it's a deliverabi
 **[Cold email copy pipeline](https://github.com/ravirevops/cold-email-copy)** — A 7-agent Claude pipeline that generates personalised cold email sequences at scale. Lead CSV in, three-email sequence out, rule-compliant, QA-scored with a retry loop. Used as the copy backbone across consulting builds.
 *Stack:* Python · Claude Sonnet · JSON copy ruleset (75–125 word body, 59 banned words, no-emoji, subject constraints).
 
-**Sonar — unified lead engine** *(in active development)* — Personal infra. Four discovery modes (ICP match, signal research, LinkedIn engagement scrape, graph queries) feeding a shared 10-step Python enrichment pipeline. Front end is a Next.js dashboard.
+**[Sonar — unified lead engine](https://github.com/ravirevops/sonar)** *(in active development)* — Personal infra. Four discovery modes (ICP match, signal research, LinkedIn engagement scrape, graph queries) feeding a shared 10-step Python enrichment pipeline. Front end is a Next.js dashboard.
 *Stack:* Next.js 16 · Python · Supabase · Exa · Apify.
 
-**Content engine** — Daily LinkedIn content system. Two posts/day across text and image formats, with an engagement-first ritual (comment on 5–10 niche posts before posting), performance tracking, and a dated content archive.
+**[Content engine](https://github.com/ravirevops/content-engine)** — Daily LinkedIn content system. Two posts/day across text and image formats, with an engagement-first ritual (comment on 5–10 niche posts before posting), performance tracking, and a dated content archive.
 *Stack:* Markdown · Python · fal.ai (image generation) · LinkedIn.
 
 ### Client and referral work *(anonymised)*
